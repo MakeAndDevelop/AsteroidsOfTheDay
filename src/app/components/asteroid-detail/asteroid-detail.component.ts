@@ -13,7 +13,7 @@ export class AsteroidDetailComponent implements OnInit {
 
     ngOnInit() {
         this.paramSubscription = this.route.params.subscribe(params => {
-            this.asteroidId = +params['id'];
+            this.asteroidId = params['id'];
         });
     }
 
