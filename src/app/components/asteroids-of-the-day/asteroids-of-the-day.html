@@ -1,0 +1,7 @@
+<h1>Matt Damon plz</h1>
+<!-- {{asteroidList | json}} -->
+<ul class="list-group">
+    <li *ngFor="let asteroid of asteroidList" class="list-group-item" (click)="openDetail(asteroid.neo_reference_id)">
+        {{asteroid.name}}
+    </li>
+</ul>
