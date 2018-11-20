@@ -53,38 +53,3 @@ describe('Asteroid detail component', () => {
         });
     });
 });
-
-/*
-let fixture: ComponentFixture<StuurVacatureComponent>;
-    let component: StuurVacatureComponent;
-
-    beforeEach(() => {
-        spyOn(contactCandidateService, 'getVacatures').and.callThrough();
-        spyOn(contactCandidateService, 'getVacatureFormData').and.callThrough();
-        spyOn(contactCandidateService, 'sendVacature').and.callThrough();
-
-        TestBed.configureTestingModule({
-            imports: [],
-            declarations: [
-                StuurVacatureComponent
-            ],
-            providers: [
-                { provide: ContactCandidateService, useValue: contactCandidateService }
-            ]
-        });
-
-        TestBed.overrideComponent(StuurVacatureComponent,
-            {
-                remove: {
-                    templateUrl: 'stuur-vacature.component.html'
-                },
-                add: {
-                    template: '<div>test</div>'
-                }
-            });
-
-        TestBed.compileComponents();
-
-        fixture = TestBed.createComponent(StuurVacatureComponent);
-        component = fixture.componentInstance;
-*/

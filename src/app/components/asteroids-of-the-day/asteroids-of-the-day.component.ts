@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 export class AsteroidsOfTheDayComponent implements OnInit {
     // these properties are used in the template to display stuff
     public asteroidList: Asteroid[];
-    public today = '2018-07-30';
+    public today = '2018-11-21';
 
     /**
      * Constructor gets the service through the provider with DI
